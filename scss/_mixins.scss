@@ -1,0 +1,11 @@
+@mixin clear(){
+	clear: both;
+	content: '';
+	display: table;
+}
+
+@mixin headings {
+	font-family: $headerText;
+	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #CCC;
+}
