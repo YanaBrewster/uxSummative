@@ -7,5 +7,21 @@
 @mixin headings {
 	font-family: $headerText;
 	font-weight: bold;
- 	text-shadow: 1px 1px 1px #CCC;
+	color: $textColor;
+}
+
+@mixin textalign-c{
+	text-align: center;
+	margin: 0 auto;
+}
+
+@mixin bannerButton{
+	position: absolute;
+	font-family: $headerText;
+	color: white;
+	font-size: 1.75em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
 }

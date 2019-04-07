@@ -1,0 +1,259 @@
+// NAV
+
+#nav-l{
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-bottom: solid 3px $brandColor;
+    height: 107px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+
+
+#logo-l{
+    float: left;
+    img{
+    height: 73px;
+    }
+    @media screen and (min-width: $mdWidth){
+        padding-left: 5%;
+    }
+    @media screen and (min-width: $lgWidth){
+        padding-left: 13%;
+        img{
+        height: 80px;
+        }
+    }
+}
+
+#navList-l{
+    float: right;
+    width: 40%;
+    padding-top: 3%;
+    ul{
+        list-style: none;
+        }
+    li{
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+        font-family: $text;
+    }
+     a{
+        color: $textColor;
+    }
+     @media screen and (min-width: $mdWidth){
+        font-size: 18px;
+        width: 60%;
+
+        li{
+        padding-right: 1%;
+    }
+
+        #navActive, li:active, {
+        border-bottom: 3px solid $brandColor; 
+        }
+    }
+    @media screen and (min-width: $lgWidth){
+        margin-right: 8%;
+        font-weight: normal;
+        font-size: 20px;
+        width: 50%;
+
+        #navActive, li:hover, {
+        border-bottom: 3px solid $brandColor; 
+        }
+    }
+}
+
+
+#menuIcon-l{
+    display: none;
+}
+
+
+@media screen and (max-width: $mdWidth){
+
+    #menuIcon-l{
+        display: block;
+        float: right;
+        color: $brandColor;
+        margin-right: 20px;
+        font-size: 3.5em;
+    }
+
+    #navList-l{
+        display: none;
+        float: right;
+        clear: both;
+        background-color: white;
+        width: 50%;
+        padding-top: 5em;
+        padding: 20px;
+        border: 3px solid $brandColor;
+    }
+
+    #navList-l ul li{
+        display: block;
+        float: none;
+        padding-top: 20px;
+        font-size: 30px;
+
+    }
+}
+
+// FOOTER 
+
+#footer-l{
+    width: 100%;
+    h4{
+    color: $footerTop;
+    text-shadow: none !important;
+    }
+}
+
+.footerTop-l{
+    background-color: $footerTop;
+    width: 100%;
+    padding-bottom: 20px;
+}
+   
+.footerContact-l{
+    h4{
+        color: white !important;
+        text-shadow: none !important;
+    }
+    p{
+        color: white;
+        text-shadow: none;
+    }
+    @media screen and (max-width: $mdWidth){
+        display: none;
+    }
+
+}
+
+.footerSocialmedia-l{
+    img{
+        height: 30px;
+    }
+     @media screen and (max-width: $mdWidth){
+        display: flex;
+        float: left;
+    }
+}
+
+.footer-buttons-l{
+      @media screen and (max-width: $mdWidth){
+       display: none;
+    }
+}
+
+.footerList-l{
+
+    li{
+    list-style: none;
+    color: black;
+    a{
+    color: $textColor;
+      }
+    @media screen and (min-width: $lgWidth){
+        a:hover, {
+       color: $brandColor; 
+        }
+      }
+    }
+}
+
+.footerBottom-l{
+    background-color: $footerBottom;
+    background-image: url("../images/footermotif.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+// GRID
+
+.row-l {
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+
+.col-l {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@for $i from 1 through $columns{
+    .col#{$i}-l{
+        width: $columnWidth * $i;
+    }
+    .offset#{$i}-l{
+            margin-left:$columnWidth * $i;
+    }
+}
+
+@media screen and (min-width: $mdWidth){
+    @for $i from 1 through $columns{
+        .colM#{$i}-l{
+            width: $columnWidth * $i; 
+        }
+        .offsetM#{$i}-l{
+            margin-left:$columnWidth * $i;
+        }
+    }
+}
+
+@media screen and (min-width: $lgWidth){
+    @for $i from 1 through $columns{
+        .colL#{$i}-l{
+            width: $columnWidth * $i;
+        }
+        .offsetL#{$i}-l{
+            margin-left:$columnWidth * $i;
+        }
+    } 
+}
+
+// CONTAINERS
+
+#main-l{
+    padding-top: 107px;
+    width: 100%;
+    // height: 100;
+    margin: 0 auto;
+    background-color: white;
+    @media screen and (min-width: $mdWidth){
+     width: 800px;
+    }
+    @media screen and (min-width: $lgWidth){
+    width: 1000px;
+    }
+} 
+
+.btnFloat-left-l{
+    float: left;
+    left: 0;
+      @media screen and (max-width: $lgWidth){
+     float:none;
+    }
+}
+
+.btnFloat-right-l{
+    float: right;
+    right:0;
+     @media screen and (max-width: $lgWidth){
+     float:none;
+    }
+}
+

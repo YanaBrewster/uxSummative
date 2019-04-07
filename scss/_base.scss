@@ -1,0 +1,44 @@
+*{
+ 	margin:0;
+ 	padding:0;
+ 	text-decoration: none;
+  box-sizing: border-box;
+ }
+
+ body{
+    background-color: rgba(52, 101, 101, 0.2);
+    font-family: $text;
+}
+
+h1 {
+  @include headings;
+  font-size: 2em;
+}
+
+h2{
+  @include headings;
+  font-size: 1.75em;
+}
+
+h3{
+  @include headings;
+  font-size: 1.5em;
+}
+ 
+h4{
+  @include headings;
+  font-size: 1.125em;
+}
+
+p{
+  color: $textColor;
+  font-family: $text;
+  font-size: 1em;
+
+}
+
+hr{
+	border-bottom: $brandColor;
+	width: 50%;
+	margin: 0 auto;
+}

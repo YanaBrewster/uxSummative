@@ -24,7 +24,7 @@ $('.btn-hide').click(function(){
 });
 
 function showNav(){
-    var menu = document.getElementById("list");
+    var menu = document.getElementById("navList-l");
     if(menu.style.display === 'block'){
         menu.style.display = 'none';
     } else {

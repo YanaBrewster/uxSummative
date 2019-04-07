@@ -1,0 +1,222 @@
+// BUTTONS
+
+.button{
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: $headerText;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn-readmore{
+  background-color: white;
+  color: #333333;
+  font-size: 1.250em;
+  border: 2px solid #333333;
+  padding: 3px;
+}
+
+.btn-purple{
+  background-color: #663399;
+}
+
+.btn-purple:hover {
+  background-color: #666699;}
+
+.btn-purple:active {
+  background-color: $footerTop;
+}
+
+.btn-blue{
+  background-color: #666699;
+}
+
+.btn-blue:hover {
+  background-color: #663399}
+
+.btn-blue:active {
+  background-color: $brandColor;
+}
+
+
+.btn-magenta{
+ background-color: $brandColor; 
+}
+
+.btn-magenta:hover {
+  background-color: #663399}
+
+.btn-magenta:active {
+  background-color: #666699;
+}
+
+.btn-S{
+  padding: 15px 25px;
+  font-size: 1.250em;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.btn-M{
+  padding: 15px 25px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.btn-L{
+  padding: 15px 25px;
+  font-size: 1.875em;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.btn-press{
+  padding: 10px 15px;
+  font-weight: bold;
+  width: 120px;
+  font-size: 14px;
+  background-color: $brandColor;
+  box-shadow: 0 6px #666797;
+  margin-bottom: 15px;
+  margin-left: 2px; 
+  color: white;
+}
+
+.btn-press:hover {
+  background-color: #663399}
+
+.btn-press:active {
+  background-color: #666699;
+  box-shadow: 0 5px #333366;
+  transform: translateY(4px);
+}
+
+
+//LOGIN FEILD
+
+.footerTop-l .login-container {
+  float: left;
+}
+
+.footerTop-l  input[type=text] {
+  font-family: 'PT Sans', sans-serif;
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 50px;
+  width: 150px;  
+}      
+
+.footerTop-l .login-container button {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  float: right;
+  padding: 10px 16px 10px 16px;
+  margin-top: 8px;
+  margin-right: 30px;
+  background: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.footerTop-l .login-container button {
+  background-color: #663399;}
+
+.footerTop-l .login-container button:hover {
+  background-color: #666699;
+}
+
+.footerTop-l .login-container button:active{
+  background-color: white;
+
+}
+
+
+@media screen and (max-width: $mdWidth) {
+  .footerTop-l .login-container {
+    float: none;
+  }
+  .footerTop-l a, .footerTop-l  input[type=text], .footerTop-l .login-container {
+    float: right;
+    display: block;
+    text-align: left; 
+    width: 80%;     
+    padding: 14px;
+  }
+  .footerTop-l input[type=text] {
+    border: 1px solid #ccc; 
+  }
+} 
+
+// BANNER
+
+.banner{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-welcomehome{
+  background-image: url("../images/topmotif.png");
+  height: 253px;
+}
+
+
+// BANNER BUTTON
+
+
+.btn-container {
+  position: relative;
+
+}
+
+.btn-container img {
+  width: 100%;
+}
+
+.btn-container .banner-btn-c {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: $headerText;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.75em;
+  padding: 16px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+// IMAGES
+
+.image-large img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+
+.image-med img{
+  width: 75%;
+  height: 75%;
+  padding-bottom: 10px;
+}
+
+.image-small img{
+  width: 50%;
+  height: 50%;
+  padding-bottom: 5px;
+}

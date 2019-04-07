@@ -1,0 +1,18 @@
+// TYPOGRAPHY
+
+.textarea{
+  width: 34em;
+}
+
+.textarea-large{
+  width: 50em;
+} 
+
+.textarea-left{
+  text-align: left;
+  margin-left: 80px;
+}
+
+.textarea-center{
+  @include textalign-c;
+}
