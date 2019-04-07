@@ -18,16 +18,21 @@ h1 {
 h2{
   @include headings;
   font-size: 1.75em;
+  margin-left: 5%;
 }
 
 h3{
   @include headings;
-  font-size: 1.5em;
+  font-size: 1.75em;
+  text-align: center;
+  margin: 0 auto;
+
 }
  
 h4{
   @include headings;
   font-size: 1.125em;
+  // font-size: 1.125em;
 }
 
 p{
@@ -38,7 +43,8 @@ p{
 }
 
 hr{
-	border-bottom: $brandColor;
-	width: 50%;
+	border-bottom: solid $brandColor 2px;
+	width: 70%;
 	margin: 0 auto;
 }
+

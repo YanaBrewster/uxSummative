@@ -1,18 +1,83 @@
 // TYPOGRAPHY
-
-.textarea{
-  width: 34em;
+.textarea-small p{
+  width: 25em;
+  @media screen and (min-width: $mdWidth){
+   width: 34em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 34em;
+  }
 }
 
-.textarea-large{
-  width: 50em;
+.textarea-medium p{
+  width: 34em;
+  @media screen and (min-width: $mdWidth){
+   width: 50em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 50em;
+  }
+}
+
+.textarea-large p{
+  width: 34em;
+  @media screen and (min-width: $mdWidth){
+   width: 50em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 50em;
+  }
 } 
 
-.textarea-left{
+.textarea-left p{
   text-align: left;
-  margin-left: 80px;
+  margin-left:5%;
+   @media screen and (min-width: $mdWidth){
+  margin-left:5%;
+  }
+  @media screen and (min-width: $lgWidth){
+   margin-left:5%;
+  }
 }
 
-.textarea-center{
-  @include textalign-c;
+.textarea-center p{
+ @include align-center;  
+ margin-left:10%;
+ width: 34em;
+ @media screen and (min-width: $mdWidth){
+  margin-left:5%;
+  width: 40em;
+  }
+  @media screen and (min-width: $lgWidth){
+   margin-left:15%;
+   width: 50em;
+  }
 }
+
+
+// IMAGES
+
+.image-large img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+
+.image-med img{
+  width: 75%;
+  height: 75%;
+  padding-bottom: 10px;
+}
+
+.image-small img{
+  width: 60%;
+  height: 60%;
+  padding-bottom: 5px;
+}
+
+.image-center img{
+	@include align-center; 
+	display: inline-block;
+}
+

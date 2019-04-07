@@ -19,6 +19,12 @@
   padding: 3px;
 }
 
+#readMore{
+    
+
+}
+
+
 .btn-purple{
   background-color: #663399;
 }
@@ -52,6 +58,7 @@
 .btn-magenta:active {
   background-color: #666699;
 }
+
 
 .btn-S{
   padding: 15px 25px;
@@ -200,23 +207,3 @@
 
 }
 
-// IMAGES
-
-.image-large img{
-  width: 100%;
-  height: 100%;
-  padding-bottom: 20px;
-}
-
-
-.image-med img{
-  width: 75%;
-  height: 75%;
-  padding-bottom: 10px;
-}
-
-.image-small img{
-  width: 50%;
-  height: 50%;
-  padding-bottom: 5px;
-}

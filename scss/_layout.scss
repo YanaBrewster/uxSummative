@@ -234,12 +234,16 @@
     margin: 0 auto;
     background-color: white;
     @media screen and (min-width: $mdWidth){
-     width: 800px;
+     width: 750px;
     }
     @media screen and (min-width: $lgWidth){
-    width: 1000px;
+    width: 1200px;
     }
 } 
+
+// #centerContainer-l{
+//     @include align-center;
+// }
 
 .btnFloat-left-l{
     float: left;
@@ -257,3 +261,57 @@
     }
 }
 
+
+// SIDENAV
+
+.sidenav {
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 12%;
+  left: 23%;
+  background: white;
+  border-radius: 5px;
+  border: solid 3px $brandColor;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.125em;
+  color: $textColor;
+  font-family: $text;
+  border-bottom: solid 3px $brandColor;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: $brandColor;
+}
+
+.main-sidenav {
+  margin-left: 310px; /* Same width as the sidebar + left position in px */ 
+  width: 68%;
+  padding: 4%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 10px;
+  border: solid 3px rgba(153, 51, 153, 0.63);
+
+  p{
+    color: $textColor; 
+    font-family: $text;
+    font-size: 1em;
+  }
+  h3{
+    text-align: left;
+  }
+}
+
+// @media screen and (max-height: 450px) {
+//   .sidenav {padding-top: 15px;}
+//   .sidenav a {font-size: 18px;}
+// }
