@@ -7,6 +7,7 @@
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  color: white;
   text-decoration: none;
   outline: none;
   font-family: $headerText;
@@ -51,34 +52,15 @@
   background-color: #663399;
 }
 
-.btn-purple:hover {
-  background-color: #666699;}
 
-.btn-purple:active {
-  background-color: $footerTop;
-}
 
 .btn-blue{
   background-color: #666699;
 }
 
-.btn-blue:hover {
-  background-color: #663399}
-
-.btn-blue:active {
-  background-color: $brandColor;
-}
-
 
 .btn-magenta{
  background-color: $brandColor; 
-}
-
-.btn-magenta:hover {
-  background-color: #663399}
-
-.btn-magenta:active {
-  background-color: #666699;
 }
 
 
@@ -115,14 +97,7 @@
   color: white;
 }
 
-.btn-press:hover {
-  background-color: #663399}
 
-.btn-press:active {
-  background-color: #666699;
-  box-shadow: 0 5px #333366;
-  transform: translateY(4px);
-}
 
 
 //LOGIN FEILD
@@ -199,6 +174,14 @@
   height: 253px;
 }
 
+.banner-gray{
+  color: white !important;
+  background-color: #666666;
+  margin-top: 5%;
+  padding-top: 5%; 
+  padding-bottom: 5%;
+}
+
 
 // BANNER BUTTON
 
@@ -228,4 +211,114 @@
   text-align: center;
 
 }
+
+
+// IMAGES
+
+
+.image-xlarge img{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+
+.image-large img{
+  width: 75%;
+  padding-bottom: 20px;
+}
+
+
+.image-med img{
+  width: 60%;
+  padding-bottom: 10px;
+}
+
+.image-small img{
+  width: 40%;
+  padding-bottom: 5px;
+}
+
+.image-center img{
+    text-align: center;
+    display:block;
+    margin:0 auto;
+}
+
+.image-vsmall img{
+  width: 30%;
+  padding-bottom: 5px;
+
+}
+
+// TEXT AREAS
+
+.textarea-small p{
+  width: 25em;
+  @media screen and (min-width: $mdWidth){
+   width: 15em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 34em;
+  }
+}
+
+.textarea-medium p{
+  width: 34em;
+  @media screen and (min-width: $mdWidth){
+   width: 34em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 50em;
+  }
+}
+
+.textarea-large p{
+  width: 34em;
+  @media screen and (min-width: $mdWidth){
+   width: 40em;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 50em;
+  }
+} 
+
+.textarea-left p {
+  text-align: left;
+  margin-left:5%;
+ 
+}
+
+.textarea-left ul {
+  text-align: left;
+  margin-left:5%;
+ }
+
+
+.textarea-left-center p{
+  text-align: left;
+  margin: 0 auto;
+   @media screen and (min-width: $mdWidth){
+  }
+  @media screen and (min-width: $lgWidth){
+  }
+}
+
+.textarea-center p{
+  margin:0 auto;
+  display:block;
+  text-align: center;
+}
+
+.textarea p{
+  width: 34em;
+ @media screen and (min-width: $mdWidth){
+  margin-left:5%;
+  width: 34em;
+  }
+  @media screen and (min-width: $lgWidth){
+
+   width: 34em;
+  }
+}
+
 

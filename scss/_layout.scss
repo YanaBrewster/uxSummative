@@ -229,19 +229,21 @@
 // CONTAINERS
 
 #main-l{
-    padding-top: 107px;
+    padding-top: 10%;
     width: 100%;
     // height: 100;
     margin: 0 auto;
     background-color: white;
     @media screen and (min-width: $mdWidth){
-     width: 750px;
+     width: 75%;
     }
     @media screen and (min-width: $lgWidth){
-    width: 1200px;
+    width: 80%;
+    padding-top: 5%;
     }
 } 
 
+// POSITIONING
 
 .center-l{
     text-align: center;
@@ -276,8 +278,8 @@
     @media screen and (min-width: $lgWidth){
     position: fixed;
     width: 15%;
-    top: 15%;
-    left: 10%;
+    top: 10%;
+    left: 14%;
     }
 }
 
@@ -288,17 +290,10 @@
   font-size: 1.125em;
   color: $textColor;
   font-family: $text;
-  border-bottom: solid 3px $brandColor;
+  border-bottom: solid 3px rgba(153, 51, 153, 0.63);
   display: block;
-          
-    @media screen and (min-width: $lgWidth){
-
-    }
 }
 
-.sidenav a:hover {
-  color: $brandColor;
-}
 
 .main-sidenav {
   margin-left: 5%; /* Same width as the sidebar + left position in px */ 
