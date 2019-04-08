@@ -1,3 +1,6 @@
+
+
+
 // BUTTONS
 
 .button{
@@ -11,19 +14,38 @@
   border-radius: 50px;
 }
 
+
+.btn-show {
+    border:none;
+    display:block;
+    margin:0 auto;
+    
+}
+.btn-hide{
+    margin:auto;
+    display:block;
+    margin:0 auto;
+}
+
+
 .btn-readmore{
   background-color: white;
+  font-family: $headerText;
+  padding:6px 6px 6px 6px;
   color: #333333;
   font-size: 1.250em;
   border: 2px solid #333333;
-  padding: 3px;
+  border-radius: 50px;
+  width:45%;
+  text-align: center;
+  margin: 0 auto;  
+    @media screen and (min-width: $mdWidth){
+      width: 25%;
+    }
+    @media screen and (min-width: $lgWidth){
+      width: 15%;
+    }
 }
-
-#readMore{
-    
-
-}
-
 
 .btn-purple{
   background-color: #663399;

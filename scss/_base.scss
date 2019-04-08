@@ -5,6 +5,10 @@
   box-sizing: border-box;
  }
 
+html {
+  scroll-behavior: smooth;
+}
+
  body{
     background-color: rgba(52, 101, 101, 0.2);
     font-family: $text;
@@ -48,3 +52,14 @@ hr{
 	margin: 0 auto;
 }
 
+a{
+  color: $brandColor;
+}
+
+a:hover{
+  color: #663399;
+}
+
+footer{
+  z-index: +1;
+}

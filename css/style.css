@@ -4,6 +4,9 @@
   text-decoration: none;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: rgba(52, 101, 101, 0.2);
   font-family: "PT Sans", sans-serif; }
@@ -44,6 +47,15 @@ hr {
   border-bottom: solid #993399 2px;
   width: 70%;
   margin: 0 auto; }
+
+a {
+  color: #993399; }
+
+a:hover {
+  color: #663399; }
+
+footer {
+  z-index: +1; }
 
 #nav-l {
   background-color: white;
@@ -126,7 +138,8 @@ hr {
     padding-top: 20px;
     font-size: 30px; } }
 #footer-l {
-  width: 100%; }
+  width: 100%;
+  z-index: +1; }
   #footer-l h4 {
     color: #356666;
     text-shadow: none !important; }
@@ -411,31 +424,35 @@ hr {
     #main-l {
       width: 1200px; } }
 
-.btnFloat-left-l {
-  float: left;
-  left: 0; }
-  @media screen and (max-width: 1024px) {
-    .btnFloat-left-l {
-      float: none; } }
+.center-l {
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
 
-.btnFloat-right-l {
-  float: right;
+.right-l {
+  position: relative;
   right: 0; }
-  @media screen and (max-width: 1024px) {
-    .btnFloat-right-l {
-      float: none; } }
+
+.left-l {
+  position: relative;
+  left: 0; }
 
 .sidenav {
-  width: 12%;
-  position: fixed;
-  z-index: 1;
-  top: 12%;
-  left: 23%;
+  margin: 0 auto;
+  position: static;
+  width: 40%;
   background: white;
   border-radius: 5px;
   border: solid 3px #993399;
   overflow-x: hidden;
+  margin-top: 3%;
   padding: 8px 0; }
+  @media screen and (min-width: 1024px) {
+    .sidenav {
+      position: fixed;
+      width: 15%;
+      top: 15%;
+      left: 10%; } }
 
 .sidenav a {
   padding: 15px 15px 15px 15px;
@@ -451,12 +468,12 @@ hr {
   color: #993399; }
 
 .main-sidenav {
-  margin-left: 310px;
+  margin-left: 5%;
   /* Same width as the sidebar + left position in px */
-  width: 68%;
+  width: 90%;
   padding: 4%;
   margin-right: 3%;
-  margin-top: 2%;
+  margin-top: 5%;
   border-radius: 10px;
   border: solid 3px rgba(153, 51, 153, 0.63); }
   .main-sidenav p {
@@ -465,6 +482,14 @@ hr {
     font-size: 1em; }
   .main-sidenav h3 {
     text-align: left; }
+  @media screen and (min-width: 1024px) {
+    .main-sidenav {
+      margin-left: 25%;
+      /* Same width as the sidebar + left position in px */
+      width: 68%;
+      padding: 4%;
+      margin-right: 3%;
+      margin-top: 2%; } }
 
 .button {
   display: inline-block;
@@ -476,12 +501,33 @@ hr {
   border: none;
   border-radius: 50px; }
 
+.btn-show {
+  border: none;
+  display: block;
+  margin: 0 auto; }
+
+.btn-hide {
+  margin: auto;
+  display: block;
+  margin: 0 auto; }
+
 .btn-readmore {
   background-color: white;
+  font-family: "PT Serif", serif;
+  padding: 6px 6px 6px 6px;
   color: #333333;
   font-size: 1.250em;
   border: 2px solid #333333;
-  padding: 3px; }
+  border-radius: 50px;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .btn-readmore {
+      width: 25%; } }
+  @media screen and (min-width: 1024px) {
+    .btn-readmore {
+      width: 15%; } }
 
 .btn-purple {
   background-color: #663399; }
@@ -642,12 +688,33 @@ hr {
   border: none;
   border-radius: 50px; }
 
+.btn-show {
+  border: none;
+  display: block;
+  margin: 0 auto; }
+
+.btn-hide {
+  margin: auto;
+  display: block;
+  margin: 0 auto; }
+
 .btn-readmore {
   background-color: white;
+  font-family: "PT Serif", serif;
+  padding: 6px 6px 6px 6px;
   color: #333333;
   font-size: 1.250em;
   border: 2px solid #333333;
-  padding: 3px; }
+  border-radius: 50px;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .btn-readmore {
+      width: 25%; } }
+  @media screen and (min-width: 1024px) {
+    .btn-readmore {
+      width: 15%; } }
 
 .btn-purple {
   background-color: #663399; }
@@ -829,10 +896,20 @@ hr {
     .textarea-left p {
       margin-left: 5%; } }
 
+.textarea-left-center p {
+  text-align: left;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .textarea-left-center p {
+      margin-left: 5%; } }
+  @media screen and (min-width: 1024px) {
+    .textarea-left-center p {
+      margin-left: 5%; } }
+
 .textarea-center p {
-  text-align: center;
   margin: 0 auto;
-  margin-left: 10%;
+  display: block;
+  text-align: center;
   width: 34em; }
   @media screen and (min-width: 768px) {
     .textarea-center p {
@@ -860,7 +937,12 @@ hr {
 
 .image-center img {
   text-align: center;
-  margin: 0 auto;
-  display: inline-block; }
+  display: block;
+  margin: 0 auto; }
+
+.image-vsmall img {
+  width: 30%;
+  height: 30%;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=style.css.map */
