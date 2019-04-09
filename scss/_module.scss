@@ -37,14 +37,14 @@
   font-size: 1.250em;
   border: 2px solid #333333;
   border-radius: 50px;
-  width:45%;
+  width:120px;
   text-align: center;
   margin: 0 auto;  
     @media screen and (min-width: $mdWidth){
-      width: 25%;
+      width: 120px;
     }
     @media screen and (min-width: $lgWidth){
-      width: 15%;
+      width: 120px;
     }
 }
 
@@ -181,11 +181,15 @@
   height: 253px;
 }
 
+.banner-donate{
+  background-image: url("../images/signup.jpg");
+  width: 100%;
+}
+
 .banner-gray{
   background-color: #666666;
   margin-top: 5%;
   padding-top: 5%; 
-  padding-bottom: 5%;
   p{
     color: white !important;
   }
@@ -221,19 +225,36 @@
 
 }
 
+.btn-container .banner-btn-b {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  font-family: $headerText;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.75em;
+  padding: 16px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+
+}
+
 
 // IMAGES
 
 
 .image-xlarge img{
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 
 .image-large img{
   width: 75%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 

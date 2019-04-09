@@ -42,10 +42,17 @@ p {
   font-family: "PT Sans", sans-serif;
   font-size: 1.25em; }
 
+ul {
+  margin-left: 1%;
+  margin-right: 0px !important; }
+
 li {
   color: #666666;
   font-family: "PT Sans", sans-serif;
   font-size: 1.125em; }
+
+p, li, h2, h3, h4 {
+  margin-left: 3%; }
 
 hr {
   border-bottom: solid #993399 2px;
@@ -127,7 +134,7 @@ footer {
   @media screen and (min-width: 1024px) {
     #navList-l {
       margin-right: 6%;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 1.25em;
       width: 50%; }
       #navList-l #navActive, #navList-l li:hover {
@@ -515,6 +522,13 @@ footer {
   #logo-l {
     padding: 0;
     width: 250px; } }
+.hide {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  display: block; }
+@media screen and (max-width: 1024px) {
+  display: block; }
 .button {
   display: inline-block;
   cursor: pointer;
@@ -544,15 +558,15 @@ footer {
   font-size: 1.250em;
   border: 2px solid #333333;
   border-radius: 50px;
-  width: 45%;
+  width: 120px;
   text-align: center;
   margin: 0 auto; }
   @media screen and (min-width: 768px) {
     .btn-readmore {
-      width: 25%; } }
+      width: 120px; } }
   @media screen and (min-width: 1024px) {
     .btn-readmore {
-      width: 15%; } }
+      width: 120px; } }
 
 .btn-purple {
   background-color: #663399; }
@@ -656,11 +670,14 @@ footer {
   background-image: url("../images/topmotif.png");
   height: 253px; }
 
+.banner-donate {
+  background-image: url("../images/signup.jpg");
+  width: 100%; }
+
 .banner-gray {
   background-color: #666666;
   margin-top: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
+  padding-top: 5%; }
   .banner-gray p {
     color: white !important; }
 
@@ -685,13 +702,28 @@ footer {
   cursor: pointer;
   text-align: center; }
 
+.btn-container .banner-btn-b {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  font-family: "PT Serif", serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.75em;
+  padding: 16px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-align: center; }
+
 .image-xlarge img {
   width: 100%;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 .image-large img {
   width: 75%;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 .image-med img {
   width: 60%;
@@ -819,15 +851,15 @@ footer {
   font-size: 1.250em;
   border: 2px solid #333333;
   border-radius: 50px;
-  width: 45%;
+  width: 120px;
   text-align: center;
   margin: 0 auto; }
   @media screen and (min-width: 768px) {
     .btn-readmore {
-      width: 25%; } }
+      width: 120px; } }
   @media screen and (min-width: 1024px) {
     .btn-readmore {
-      width: 15%; } }
+      width: 120px; } }
 
 .btn-purple {
   background-color: #663399; }
@@ -931,11 +963,14 @@ footer {
   background-image: url("../images/topmotif.png");
   height: 253px; }
 
+.banner-donate {
+  background-image: url("../images/signup.jpg");
+  width: 100%; }
+
 .banner-gray {
   background-color: #666666;
   margin-top: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
+  padding-top: 5%; }
   .banner-gray p {
     color: white !important; }
 
@@ -960,13 +995,28 @@ footer {
   cursor: pointer;
   text-align: center; }
 
+.btn-container .banner-btn-b {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  font-family: "PT Serif", serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.75em;
+  padding: 16px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-align: center; }
+
 .image-xlarge img {
   width: 100%;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 .image-large img {
   width: 75%;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 .image-med img {
   width: 60%;

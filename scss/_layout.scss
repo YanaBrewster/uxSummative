@@ -74,7 +74,7 @@
         width: 60%;
 
         li{
-        // margin-left: 2%;
+  
     }
 
         #navActive, li:active, {
@@ -83,7 +83,7 @@
     }
     @media screen and (min-width: $lgWidth){
         margin-right: 6%;
-        font-weight: normal;
+        font-weight: 400; 
         font-size: 1.25em;
         width: 50%;
 
@@ -256,6 +256,8 @@
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    // padding-left: 2%;
+    // padding-right: 2%;
     @media screen and (min-width: $mdWidth){
      width: 75%;
     }
@@ -345,9 +347,26 @@
     }
 }
 
+
+// TABLET NAV FIX
+
 @media screen and (max-width: 880px) {
   #logo-l {
     padding: 0;
     width: 250px;
   }
+}
+
+// HIDE
+
+
+.hide{
+  display: none;
+}
+@media screen and (max-width: $mdWidth){
+  display: block;
+} 
+
+@media screen and (max-width: $lgWidth){
+  display: block;
 }
