@@ -22,7 +22,6 @@ h1 {
 h2{
   @include headings;
   font-size: 1.75em;
-  margin-left: 5%;
 }
 
 h3{
@@ -35,14 +34,13 @@ h3{
  
 h4{
   @include headings;
-  font-size: 1.75em;
-  margin-left: 5%;
+  font-size: 1.25em;
 }
 
 p{
   color: $textColor;
   font-family: $text;
-  font-size: 1.125em;
+  font-size: 1.25em;
 
 }
 

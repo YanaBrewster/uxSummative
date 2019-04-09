@@ -41,11 +41,13 @@
     margin-top: 2%;
     width: 70%;
     @media screen and (min-width: $mdWidth){
-    width: 70%;
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 1%;
     }
 
     @media screen and (min-width: $lgWidth){
-    width: 75%;
+    width: 70%;
     margin-left: 0px;
     margin-top: 0px;
     }
@@ -252,7 +254,6 @@
 #main-l{
     padding-top: 10%;
     width: 100%;
-    // height: 100;
     margin: 0 auto;
     background-color: white;
     @media screen and (min-width: $mdWidth){
@@ -263,6 +264,7 @@
     padding-top: 5%;
     }
 } 
+
 
 // POSITIONING
 
@@ -308,7 +310,7 @@
   padding: 15px 15px 15px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 1.125em;
+  font-size: 1.25em;
   color: $textColor;
   font-family: $text;
   border-bottom: solid 3px rgba(153, 51, 153, 0.63);
@@ -328,7 +330,7 @@
   p{
     color: $textColor; 
     font-family: $text;
-    font-size: 1em;
+    font-size: 1.25em;
   }
   h3{
     text-align: left;
@@ -346,6 +348,6 @@
 @media screen and (max-width: 880px) {
   #logo-l {
     padding: 0;
-    width: 290px;
+    width: 250px;
   }
 }

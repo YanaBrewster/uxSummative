@@ -21,8 +21,7 @@ h2 {
   font-family: "PT Serif", serif;
   font-weight: bold;
   color: #666666;
-  font-size: 1.75em;
-  margin-left: 5%; }
+  font-size: 1.75em; }
 
 h3 {
   font-family: "PT Serif", serif;
@@ -36,13 +35,12 @@ h4 {
   font-family: "PT Serif", serif;
   font-weight: bold;
   color: #666666;
-  font-size: 1.75em;
-  margin-left: 5%; }
+  font-size: 1.25em; }
 
 p {
   color: #666666;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.125em; }
+  font-size: 1.25em; }
 
 li {
   color: #666666;
@@ -98,10 +96,12 @@ footer {
   width: 70%; }
   @media screen and (min-width: 768px) {
     #logo-l img {
-      width: 70%; } }
+      width: 80%;
+      margin-left: 0px;
+      margin-top: 1%; } }
   @media screen and (min-width: 1024px) {
     #logo-l img {
-      width: 75%;
+      width: 70%;
       margin-left: 0px;
       margin-top: 0px; } }
 
@@ -481,7 +481,7 @@ footer {
   padding: 15px 15px 15px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 1.125em;
+  font-size: 1.25em;
   color: #666666;
   font-family: "PT Sans", sans-serif;
   border-bottom: solid 3px rgba(153, 51, 153, 0.63);
@@ -499,7 +499,7 @@ footer {
   .main-sidenav p {
     color: #666666;
     font-family: "PT Sans", sans-serif;
-    font-size: 1em; }
+    font-size: 1.25em; }
   .main-sidenav h3 {
     text-align: left; }
   @media screen and (min-width: 1024px) {
@@ -514,7 +514,7 @@ footer {
 @media screen and (max-width: 880px) {
   #logo-l {
     padding: 0;
-    width: 290px; } }
+    width: 250px; } }
 .button {
   display: inline-block;
   cursor: pointer;
@@ -585,11 +585,11 @@ footer {
   padding: 10px 15px;
   font-weight: bold;
   width: 120px;
-  font-size: 14px;
+  font-size: 1em;
   background-color: #993399;
   box-shadow: 0 6px #666797;
   margin-bottom: 15px;
-  margin-left: 2px;
+  margin-left: 5px;
   color: white; }
 
 .footerTop-l .login-container {
@@ -647,7 +647,10 @@ footer {
   background-size: cover; }
 
 .banner-text p {
-  width: 50%; }
+  width: 80%;
+  font-size: 1.55em;
+  margin: 0 auto;
+  text-align: center; }
 
 .banner-welcomehome {
   background-image: url("../images/topmotif.png");
@@ -708,39 +711,37 @@ footer {
   padding-bottom: 5px; }
 
 .textarea-small p {
-  width: 25em; }
+  width: 100%; }
   @media screen and (min-width: 768px) {
     .textarea-small p {
-      width: 15em; } }
+      width: 70%; } }
   @media screen and (min-width: 1024px) {
     .textarea-small p {
-      width: 34em; } }
+      width: 70%; } }
 
 .textarea-medium p {
-  width: 34em; }
+  width: 90%; }
   @media screen and (min-width: 768px) {
     .textarea-medium p {
-      width: 34em; } }
+      width: 90%; } }
   @media screen and (min-width: 1024px) {
     .textarea-medium p {
-      width: 50em; } }
+      width: 75%; } }
 
 .textarea-large p {
-  width: 34em; }
+  width: 80%; }
   @media screen and (min-width: 768px) {
     .textarea-large p {
-      width: 40em; } }
+      width: 80%; } }
   @media screen and (min-width: 1024px) {
     .textarea-large p {
-      width: 50em; } }
+      width: 85%; } }
 
 .textarea-left p {
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 .textarea-left ul {
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 .textarea-left-center p {
   text-align: left;
@@ -748,19 +749,7 @@ footer {
 
 .textarea-center p {
   margin: 0 auto;
-  display: block;
   text-align: center; }
-
-.textarea p {
-  width: 34em; }
-  @media screen and (min-width: 768px) {
-    .textarea p {
-      margin-left: 5%;
-      width: 34em; } }
-  @media screen and (min-width: 1024px) {
-    .textarea p {
-      margin-left: 5%;
-      width: 34em; } }
 
 #nav::after {
   clear: both;
@@ -871,11 +860,11 @@ footer {
   padding: 10px 15px;
   font-weight: bold;
   width: 120px;
-  font-size: 14px;
+  font-size: 1em;
   background-color: #993399;
   box-shadow: 0 6px #666797;
   margin-bottom: 15px;
-  margin-left: 2px;
+  margin-left: 5px;
   color: white; }
 
 .footerTop-l .login-container {
@@ -933,7 +922,10 @@ footer {
   background-size: cover; }
 
 .banner-text p {
-  width: 50%; }
+  width: 80%;
+  font-size: 1.55em;
+  margin: 0 auto;
+  text-align: center; }
 
 .banner-welcomehome {
   background-image: url("../images/topmotif.png");
@@ -994,39 +986,37 @@ footer {
   padding-bottom: 5px; }
 
 .textarea-small p {
-  width: 25em; }
+  width: 100%; }
   @media screen and (min-width: 768px) {
     .textarea-small p {
-      width: 15em; } }
+      width: 70%; } }
   @media screen and (min-width: 1024px) {
     .textarea-small p {
-      width: 34em; } }
+      width: 70%; } }
 
 .textarea-medium p {
-  width: 34em; }
+  width: 90%; }
   @media screen and (min-width: 768px) {
     .textarea-medium p {
-      width: 34em; } }
+      width: 90%; } }
   @media screen and (min-width: 1024px) {
     .textarea-medium p {
-      width: 50em; } }
+      width: 75%; } }
 
 .textarea-large p {
-  width: 34em; }
+  width: 80%; }
   @media screen and (min-width: 768px) {
     .textarea-large p {
-      width: 40em; } }
+      width: 80%; } }
   @media screen and (min-width: 1024px) {
     .textarea-large p {
-      width: 50em; } }
+      width: 85%; } }
 
 .textarea-left p {
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 .textarea-left ul {
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 .textarea-left-center p {
   text-align: left;
@@ -1034,18 +1024,6 @@ footer {
 
 .textarea-center p {
   margin: 0 auto;
-  display: block;
   text-align: center; }
-
-.textarea p {
-  width: 34em; }
-  @media screen and (min-width: 768px) {
-    .textarea p {
-      margin-left: 5%;
-      width: 34em; } }
-  @media screen and (min-width: 1024px) {
-    .textarea p {
-      margin-left: 5%;
-      width: 34em; } }
 
 /*# sourceMappingURL=style.css.map */
