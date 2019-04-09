@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"textarea-left-center"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"gender",
+				"genderequal"
+			],
+			[
+				"textarea-",
+				"textarea-left"
+			],
+			[
+				"ro",
+				"row-l"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"ima",
+				"image-small"
+			],
+			[
+				"marin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"image",
+				"image-large"
+			],
+			[
+				"colL4",
+				"colL4-l"
+			],
+			[
+				"col",
+				"colM3-l"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"e",
+				"ease-in\ttransition-timing-function"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"trs",
+				"transform\tproperty"
+			],
+			[
+				"Tran",
+				"transform\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"hhe",
+				"height\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"mi",
+				"min-height\tproperty"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"space-",
+				"space-between\tjustify-content"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"boc",
+				"block\tdisplay"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html5"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:  ints",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: intsa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/270010939/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/270010939/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/270010939/Desktop/uxSummative/about.html",
+		"/Users/270010939/Desktop/uxSummative/donate.html",
+		"/Users/270010939/Desktop/uxSummative/scss/_mixins.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/_state.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/_theme.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/_layout.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/_module.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/_base.scss",
+		"/Users/270010939/Desktop/uxSummative/scss/style.scss",
+		"/Users/270010939/Desktop/uxSummative/css/style.css",
+		"/Users/270010939/Desktop/advancedCss/css/style.css",
+		"/Users/270010939/Desktop/advancedCss/js/script.js",
+		"/Volumes/YANA/Hug a Pug Event/WWW/css/default.css",
+		"/Users/270010939/Desktop/formative1.2/css/style.css",
+		"/Volumes/YANA/Hug a Pug Event/WWW/index.html",
+		"/Users/270010939/Desktop/sassOffsetGrids/css/style.css",
+		"/Users/270010939/Desktop/sassOffsetGrids/scss/style.scss",
+		"/Users/270010939/Desktop/sassOffsetGrids/scss/_nav.scss",
+		"/Users/270010939/Desktop/sassOffsetGrids/scss/_variables.scss",
+		"/Users/270010939/Desktop/sass/css/style.css",
+		"/Users/270010939/Desktop/sass/scss/_variables.scss",
+		"/Users/270010939/Desktop/sass/scss/_nav.scss",
+		"/Users/270010939/Desktop/gridLayouts/Wednesday/style.css",
+		"/Users/270010939/Desktop/webBasics/css/style.css",
+		"/Users/270010939/Desktop/webBasics/index.html",
+		"/Users/270010939/Desktop/flexbox/style.css",
+		"/Users/270010939/Desktop/positioning/css/style.css",
+		"/Users/270010939/Desktop/responsiveDesign/css/style.css",
+		"/Users/270010939/Desktop/grid-layouts/index.html",
+		"/Users/270010939/Desktop/grid-layouts/Monday/index.html",
+		"/Users/270010939/Desktop/grid-layouts/Friday/index.html",
+		"/Users/270010939/Desktop/coding/div.html",
+		"/Users/270010939/Desktop/responsiveDesign/style.css",
+		"/Users/270010939/Desktop/positions/css/default.css",
+		"/Users/270010939/Desktop/positioning/css/default.css",
+		"/Users/270010939/Desktop/LayoutGrid/layoutGrid2.html",
+		"/Users/270010939/Library/Application Support/Sublime Text 3/Packages/User/html5.sublime-snippet",
+		"/Volumes/YANA/index.html",
+		"/Volumes/YANA/WWW TEST/test.html",
+		"/Volumes/YANA/WWW TEST/backgroundImage.html",
+		"/Volumes/YANA/WWW TEST/imageRolloversandSprites.html",
+		"/Volumes/YANA/WWW TEST/gradients.html",
+		"/Users/270010939/Desktop/webBasics/images/adult-architecture-building-1786263.jpg",
+		"/Volumes/YANA/coding/index.html",
+		"/Users/270010939/Desktop/Coding/classHtml.html",
+		"/Users/270010939/Desktop/Coding/default.css",
+		"/Volumes/YANA/default.css",
+		"/Volumes/YANA/classHtml.html",
+		"/Volumes/YANA/classhtml.html",
+		"/Volumes/YANA/WWW TEST/css/default.css",
+		"/Volumes/YANA/WWW TEST/about.html",
+		"/Volumes/YANA/WWW TEST/contact.html",
+		"/Volumes/YANA/WWW TEST/photos.html",
+		"/Volumes/YANA/Hug a Pug Event/WWW/gallery.html",
+		"/Volumes/YANA/Hug a Pug Event/WWW/contact.html",
+		"/Volumes/YANA/Hug a Pug Event/WWW/about.html",
+		"/Users/270010939/Desktop/doc.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "about.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -13,9 +13,13 @@
 
     @media screen and (min-width: $mdWidth){
       padding-top:1.5%;
+      height: 12%; 
+      // line-height: 50px;
     }
     @media screen and (min-width: $lgWidth){
       padding-top:1%;
+      height: 12%;
+      // line-height: 40px;
       img{
         height: 10%;
       }
@@ -39,7 +43,7 @@
     float: left;
     margin-left: 1%;
     margin-top: 2%;
-    width: 70%;
+    width: 80%;
     @media screen and (min-width: $mdWidth){
     width: 80%;
     margin-left: 0px;
@@ -47,7 +51,7 @@
     }
 
     @media screen and (min-width: $lgWidth){
-    width: 70%;
+    width: 90%;
     margin-left: 0px;
     margin-top: 0px;
     }
@@ -55,7 +59,7 @@
 
 #navList-l{
     float: right;
-    width: 40%;
+    width: 50%;
     padding-top: 1%;
     ul{
         list-style: none;
@@ -71,7 +75,7 @@
     }
      @media screen and (min-width: $mdWidth){
         font-size: 1.125em;
-        width: 60%;
+        width: 50%;
 
         li{
   
@@ -85,7 +89,8 @@
         margin-right: 6%;
         font-weight: 400; 
         font-size: 1.25em;
-        width: 50%;
+        margin: 0 8px;
+        width: 40%;
 
         #navActive, li:hover, {
         border-bottom: 3px solid $brandColor; 
@@ -276,15 +281,24 @@
     margin:0 auto;
 }
 
+.btn-center-l{
+    text-align: center;
+    display:block;
+    margin:0 auto;
+}
+
 .right-l{
-  position: relative;
-  right:0;
+  float: right;
 }
 
 .left-l{
-  position: relative;
-  left: 0;
+  float: left;
 }
+
+
+
+
+
 
 
 
@@ -298,12 +312,13 @@
   border-radius: 5px;
   border: solid 3px $brandColor;
   overflow-x: hidden;
-  margin-top: 3%;
-  padding: 8px 0;
+  margin-top: 5%;
+  border-bottom: solid 3px $brandColor;
+  padding: 6px 0;
     @media screen and (min-width: $lgWidth){
     position: fixed;
     width: 15%;
-    top: 10%;
+    top: 7%;
     left: 14%;
     }
 }
@@ -343,9 +358,77 @@
       width: 68%;
       padding: 4%;
       margin-right: 3%;
+      margin-top: 4%;
+    }
+}
+
+// BLOG SIDENAV
+
+#main-sidenav-news{
+  float: left;
+  margin-left: 5%; /* Same width as the sidebar + left position in px */ 
+  width: 90%;
+  padding: 4%;
+  margin-right: 3%;
+  margin-top: 3%;
+  border-radius: 10px;
+  border: solid 3px rgba(153, 51, 153, 0.63);
+
+  p{
+    color: $textColor; 
+    font-family: $text;
+    font-size: 1.25em;
+  }
+  h3{
+    text-align: left;
+    color: $brandColor;
+  }
+
+    @media screen and (min-width: $lgWidth){
+      margin-right: 25%; /* Same width as the sidebar + left position in px */ 
+      width: 68%;
+      padding: 4%;
+      margin-right: 3%;
       margin-top: 2%;
     }
 }
+
+
+
+#sidenav-news{
+  margin: 0 auto;
+  width: 40%; 
+  background: white;
+  border-radius: 5px;
+  border: solid 3px $brandColor;
+  overflow-x: hidden;
+  margin-top: 5%;
+  border-bottom: solid 3px $brandColor;
+  padding: 6px 0;
+    @media screen and (min-width: $lgWidth){
+    width: 20%;
+    top: 7%;
+    right: 13%;
+  }
+}
+
+#sidenav-news a {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: $textColor;
+  font-family: $text;
+  border-bottom: solid 3px rgba(153, 51, 153, 0.63);
+  display: block;
+
+  ul li{
+    text-align: left;
+  }
+}
+
+
+
 
 
 // TABLET NAV FIX
@@ -361,12 +444,13 @@
 
 
 .hide{
+
   display: none;
 }
-@media screen and (max-width: $mdWidth){
+@media screen and (min-width: $mdWidth){
   display: block;
 } 
 
-@media screen and (max-width: $lgWidth){
+@media screen and (min-width: $lgWidth){
   display: block;
 }

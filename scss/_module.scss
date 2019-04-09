@@ -275,8 +275,14 @@
 }
 
 .image-vsmall img{
-  width: 30%;
+    width: 60%;
   padding-bottom: 5px;
+  @media screen and (min-width: $mdWidth){
+    width: 40%;
+  }
+  @media screen and (min-width: $lgWidth){
+    width: 30%;
+  }
 
 }
 
