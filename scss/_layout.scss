@@ -2,56 +2,77 @@
 
 #nav-l{
     background-color: white;
-    padding-top: 15px;
-    padding-left: 30px;
     border-bottom: solid 3px $brandColor;
-    height: 107px; 
+    padding-top: 2%;
+    padding-left: 1%;
+    height: 10%; 
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1
+    z-index: 1;
+
+    @media screen and (min-width: $mdWidth){
+      padding-top:1.5%;
+    }
+    @media screen and (min-width: $lgWidth){
+      padding-top:1%;
+      img{
+        height: 10%;
+      }
+    }
 }
 
 
 
 #logo-l{
     float: left;
-    img{
-    height: 73px;
-    }
     @media screen and (min-width: $mdWidth){
         padding-left: 5%;
     }
     @media screen and (min-width: $lgWidth){
         padding-left: 13%;
-        img{
-        height: 80px;
-        }
+    }
+}
+
+
+#logo-l img{
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 70%;
+    @media screen and (min-width: $mdWidth){
+    width: 70%;
+    }
+
+    @media screen and (min-width: $lgWidth){
+    width: 75%;
+    margin-left: 0px;
+    margin-top: 0px;
     }
 }
 
 #navList-l{
     float: right;
     width: 40%;
-    padding-top: 3%;
+    padding-top: 1%;
     ul{
         list-style: none;
         }
     li{
         display: inline-block;
         float: left;
-        margin-right: 30px;
+        margin: 0 8px;
         font-family: $text;
     }
      a{
         color: $textColor;
     }
      @media screen and (min-width: $mdWidth){
-        font-size: 18px;
+        font-size: 1.125em;
         width: 60%;
 
         li{
-        padding-right: 1%;
+        // margin-left: 2%;
     }
 
         #navActive, li:active, {
@@ -59,9 +80,9 @@
         }
     }
     @media screen and (min-width: $lgWidth){
-        margin-right: 8%;
+        margin-right: 6%;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 1.25em;
         width: 50%;
 
         #navActive, li:hover, {
@@ -92,7 +113,7 @@
         clear: both;
         background-color: white;
         width: 50%;
-        padding-top: 5em;
+        padding-top: 5%;
         padding: 20px;
         border: 3px solid $brandColor;
     }
@@ -320,4 +341,11 @@
       margin-right: 3%;
       margin-top: 2%;
     }
+}
+
+@media screen and (max-width: 880px) {
+  #logo-l {
+    padding: 0;
+    width: 290px;
+  }
 }

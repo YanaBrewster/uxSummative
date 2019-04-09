@@ -169,17 +169,23 @@
   background-size: cover;
 }
 
+.banner-text p{
+  width: 50%;
+}
+
 .banner-welcomehome{
   background-image: url("../images/topmotif.png");
   height: 253px;
 }
 
 .banner-gray{
-  color: white !important;
   background-color: #666666;
   margin-top: 5%;
   padding-top: 5%; 
   padding-bottom: 5%;
+  p{
+    color: white !important;
+  }
 }
 
 
@@ -316,7 +322,7 @@
   width: 34em;
   }
   @media screen and (min-width: $lgWidth){
-
+  margin-left:5%;
    width: 34em;
   }
 }
