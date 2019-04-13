@@ -17,7 +17,7 @@
     }
     @media screen and (min-width: $lgWidth){
       padding-top:1%;
-      height: 12%; 
+      height: 10%; 
     }
 }
 
@@ -35,15 +35,17 @@
      img{
         float: left;
         margin-left: 1%;
-        margin-top: 2%;
-        width: 80%;
+        margin-top: 1%;
+        width: 60%;
 
         @media screen and (min-width: $mdWidth){
+        width: 70%;
         margin-left: 0;
         margin-top: 1%;
         }
 
         @media screen and (min-width: $lgWidth){
+        width: 70%;
         margin-left: 0;
         margin-top: 0;
         }
@@ -67,7 +69,7 @@
         color: $textColor;
     }
      @media screen and (min-width: $mdWidth){
-        font-size: 1.125em;
+        font-size: 100%;
         width: 50%;
 
         li{
@@ -80,8 +82,7 @@
     }
     @media screen and (min-width: $lgWidth){
         margin-right: 6%;
-        font-weight: 400; 
-        font-size: 1.25em;
+        font-size: 120%;
         margin: 0 8px;
         width: 40%;
 
@@ -103,8 +104,8 @@
         display: block;
         float: right;
         color: $brandColor;
-        margin-right: 20px;
-        font-size: 3.5em;
+        margin-right: 3%;
+        font-size: 2.5em;
     }
 
     #navList-l{
@@ -112,10 +113,11 @@
         float: right;
         clear: both;
         background-color: white;
-        width: 50%;
-        padding-top: 5%;
-        padding: 20px;
+        width: 65%;
+        padding-top: 3%;
+        padding: 10% 10% 10% 10%;
         border: 3px solid $brandColor;
+        font-size: 90%;
     }
 
     #navList-l ul li{
@@ -161,7 +163,7 @@
 
 .footerSocialmedia-l{
     img{
-        height: 30px;
+        height: 25px;
     }
      @media screen and (max-width: $mdWidth){
         display: flex;
@@ -251,11 +253,11 @@
 
 #main-l{
     padding-top: 10%;
+    padding-right: 0%;
+    padding-left: 0%;
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    // padding-left: 2%;
-    // padding-right: 2%;
     @media screen and (min-width: $mdWidth){
      width: 75%;
     }
@@ -388,72 +390,6 @@
       margin-top: 4%;
     }
 }
-
-// BLOG SIDENAV
-
-#main-sidenav-news{
-  float: left;
-  margin-left: 5%; /* Same width as the sidebar + left position in px */ 
-  width: 90%;
-  padding: 4%;
-  margin-right: 3%;
-  margin-top: 3%;
-  border-radius: 10px;
-  border: solid 3px rgba(153, 51, 153, 0.63);
-
-  p{
-    color: $textColor; 
-    font-family: $text;
-    font-size: 1.25em;
-  }
-  h3{
-    text-align: left;
-    color: $brandColor;
-  }
-
-    @media screen and (min-width: $lgWidth){
-      margin-right: 25%; /* Same width as the sidebar + left position in px */ 
-      width: 68%;
-      padding: 4%;
-      margin-right: 3%;
-      margin-top: 2%;
-    }
-}
-
-
-
-#sidenav-news{
-  margin: 0 auto;
-  width: 40%; 
-  background: white;
-  border-radius: 5px;
-  border: solid 3px $brandColor;
-  overflow-x: hidden;
-  margin-top: 5%;
-  border-bottom: solid 3px $brandColor;
-  padding: 6px 0;
-    @media screen and (min-width: $lgWidth){
-    width: 20%;
-    top: 7%;
-    right: 13%;
-  }
-}
-
-#sidenav-news a {
-  padding: 15px 15px 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.25em;
-  color: $textColor;
-  font-family: $text;
-  border-bottom: solid 3px rgba(153, 51, 153, 0.63);
-  display: block;
-
-  ul li{
-    text-align: left;
-  }
-}
-
 
 
 
